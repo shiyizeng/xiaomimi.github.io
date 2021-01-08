@@ -1,0 +1,191 @@
+.header{
+    width: 1130px;
+    height: 98px;
+    margin: auto;
+    .logo{
+      
+        height: 73px;
+
+    }
+    .logo_left{
+        float: left;
+        padding-top: 25px;
+    }
+    .logo_right{
+        float: left;
+        padding-top: 14px;
+    }
+    .logo_right a{
+        display: block;
+    }
+    .logo_right a:nth-child(1){
+        font-size: 34px;
+        color: #333;
+    }
+    .logo_right a:nth-child(2){
+        font-size: 10px;
+        color: #333;
+    }
+}
+
+
+.logo_left{
+    a{
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #ff6700;
+        margin-right: 22px;
+    }
+    img{
+    width: 100%;
+    height: 100%; 
+    }
+}
+.banner{
+    height: 588px;
+    margin: auto;
+    background-size: cover;
+    margin-bottom: 100px;
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/72644d9b8031286de3cc74e151aefd90.jpg") no-repeat center center;
+}
+.footer{
+    p{
+        margin: auto;
+        text-align: center;
+        color: #757575;
+        font-size: 14px;
+        a{
+            color: #757575;     
+        }
+        span{
+            display: inline-block;
+            padding: 0 12px;
+        }
+         
+    }
+    .last{
+         line-height: 44px;
+      i{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            
+          img{
+                width: 100%;
+                height: 100%;
+          }
+      }
+
+    }
+}
+.container{
+    width: 1130px;
+    height: 588px;
+    margin: auto;
+    position: relative;
+    form{
+        position: absolute;
+        top: 32px;
+        right: 0;
+        width: 410px;
+        height: 556px;
+        background-color: #fff;
+        .smart_phone{
+            padding: 0 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            a{
+                font-size: 14px;
+                color: #ff6700;
+            }
+            }
+        .forget{
+            margin: 0 30px;
+            text-align: center;
+            font-size: 14px;
+            a{
+                color: #999999;
+                &:hover{
+                    color: #ff6700; 
+                }
+             }
+             span{
+                    color: #999999;
+                }
+             }
+        .form_top{
+                height: 82px;
+                text-align: center;
+                line-height: 82px;
+            a{
+                    display: inline-block;
+                    font-size: 24px;
+                }
+            span{
+                    display: inline-block;
+                    padding: 0 40px;
+                    font-size: 24px;
+                    color: #666;
+                }
+            
+            }
+        .form_inp{
+                margin: 0 30px;
+            input{
+                    width: 348px;
+                    height: 48px;
+                    outline: none;
+                    border: 1px solid #ccc;
+                    text-indent: 14px;
+                }
+            .input01{
+                    margin-bottom: 15px;
+                }
+            .btn{
+                    height: 50px;
+                    width: 350px;
+                    text-align: center;
+                    background-color: #ff6700;
+                    outline: none;
+                    border: none;
+                    color: #fff;
+                    margin: 24px 0 14px 0;
+                }
+            }
+    }
+    .other{
+        height: 32px;
+        cursor: pointer;
+        text-align: center;
+        padding: 148px 30px 0 30px;
+        a{
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: #fff;
+            margin:0 17px;
+            text-align: center;
+           i{
+            font-size: 18px;
+            color: #fff;
+           }
+        }
+        .one{
+            background-color: #0288d1;
+        }
+        .two{
+            background-color: #d32f2f;
+        }
+       .three{
+           background-color: #00aaee;
+       }
+       .four{
+           background-color: #00d20d;
+       }
+        
+    }
+  
+}

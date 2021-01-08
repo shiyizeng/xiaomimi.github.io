@@ -1,0 +1,440 @@
+.header{
+    width: 100%;
+
+}
+.container{
+    width: 1226px;
+    margin: auto;
+}
+.header_top{
+    display:block;
+    height: 120px;
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb3c06a430689ba2357dd7d1fbfa6bab.jpg?w=5120&h=240") no-repeat center center;
+    background-size:cover;
+}
+.header_top a{
+    display: inline-block;
+    height: 120px;
+    width: 100%;
+}
+.nav{
+    height: 40px;
+    background-color: #333;
+}
+.nav_left{
+    float: left;
+}
+.nav_left ul li{
+    float: left;
+    line-height: 40px;
+}
+.nav_right{
+    float: right;
+}
+.nav_right ul li{
+    float: left;
+    line-height: 40px;
+  
+}
+.nav_right ul li a,
+.nav_left ul li a{
+    display: inline-block;
+    color: #b0b0b0;
+    padding: 0 10px;
+}
+.nav_right ul li a:hover,
+.nav_left ul li a:hover{
+    color: #fff;
+}
+.nav_container{
+    position: relative;
+    height: 40px;
+}
+.nav_left ul li{
+    position: relative;
+}
+.nav_left ul li .code{
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    background-color: #fff;
+    padding:20px 20px 0 20px ;
+    z-index: 9;
+    display: none;
+}
+
+
+.nav_left ul li .code img{
+    display: block;
+    width: 90px;
+    height:90px;
+
+}
+.nav_left ul li .code i{
+    text-align: center;
+    font-size: 14px;
+}
+.line::after{
+    content: '';
+    position: absolute;
+    top: 15px;
+    height: 12px;
+    width: 1px;
+    /* background-color: red; */
+    background-color:#424242;
+}
+.nav_right li span{
+    position: absolute;
+    top: 15px;
+    width: 1px;
+    height: 12px;
+    background-color:#424242;
+}
+.nav_right .cart{
+    display: inline-block;
+    background-color:#424242;
+    width: 120px;
+    margin-left: 15px;
+    text-align: center;
+    height: 40px;
+}
+.nav_right ul li .cart:hover{
+    color: #ff6700;
+}
+
+.search{
+    height: 100px;
+}
+.search_container{
+    height: 100px;
+    line-height: 100px;
+
+}
+.search .logo{
+    position: relative;
+    top: 25px;
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    overflow: hidden;
+}
+.search .logo .mimi{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    transition: all .2s;
+
+    background: url("https://s02.mifile.cn/assets/static/image/mi-logo.png") center center;
+}
+.search .logo:hover .mimi{
+    transform: translateX(50px);
+}
+.search .logo .house{
+    width: 55px;
+    height: 55px;
+   position: absolute;
+   left: -55px;
+   transition: all .2s;
+    background: url("https://s02.mifile.cn/assets/static/image/mi-home.png") center center #ff6700;
+}
+.search .logo:hover .house{
+    transform: translateX(55px);
+}
+
+.logo{
+    float: left;
+
+}
+.search_nav{
+    float: left;
+    margin-left: 180px;
+
+}
+.real_search{
+    float: right;
+    width: 296px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+
+
+.search_nav>ul>li>a{
+    color: #333;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.search_nav>ul>li>a:hover{
+    color: #ff6700;
+}
+.real_search input{
+    width: 242px;
+    height:48px;
+    outline: none;
+    border: none;
+    text-indent: 12px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.real_search button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52px;
+    border: none;
+    border-left:1px solid #ccc ;
+    height: 48px;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    margin-left: -4px; 
+}
+.serch_all{
+    position: relative;
+    width: 294px;
+    height: 48px;
+    border: 1px solid #ccc;
+  
+}
+.serch_all .search_ul{
+    z-index: 9;
+    position: absolute;
+    top: 49px;
+    left: -1px;
+    width: 242px;
+    height: 240px;
+    border: 1px solid #ff6700;
+    border-top: 0;
+    display: none;
+    background-color: #fff;
+}
+.serch_all .search_ul li{
+    width: 242px;
+    height: 30px;
+}
+.serch_all .search_ul li:hover{
+    background-color:rgba(0,0,0,0.1);
+}
+.serch_all .search_ul li a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 15px;
+}
+.real_search button i{
+    font-weight: 700;
+}
+.real_search button:hover{
+    border-color:#ff6700 ;
+    background-color: #ff6700;
+    color:#fff ;
+  
+}
+.zhongjian{
+    height: 200px;
+}
+/* 尾部 */
+.service{
+    height: 330px;
+    background-color: #fff;
+}
+.service_container{
+    height: 79px;
+    border-bottom: 1px solid #ccc;
+    /* background-color: pink; */
+    position: relative;
+}
+.s1::after{
+    content: "";
+    position: absolute;
+    top:26px;
+    height: 25px;
+    width: 1px;
+    background-color: #ccc;
+
+}
+.service_container ul li{
+    float: left;
+    width: 245px;
+} 
+.service_container ul li a{
+    display: inline-block;
+    width: 245px;
+    line-height: 79px;
+    text-align: center;
+    color: #616161;
+    font-size: 16px;
+  
+}
+.service_container ul li a i{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 79px ;
+    margin-right: 5px;
+    color: #616161;
+    vertical-align: middle;
+}
+.service_container li:hover a{
+    color: #ff6700;
+}
+.service_container li:hover i{
+    color: #ff6700;
+}
+.service_left{
+    width: 980px;
+}
+.service_left dl{
+    float: left;
+    width: 163px;
+}
+.service_left dl dt{
+    font-size: 14px;
+    color:#424242;
+    margin-bottom: 22px;
+}
+
+.service_left dl a{
+    display: block;
+
+}
+.service_left dl dt a{
+    color: #424242;
+   transition: all .3s;
+}
+
+.service_left dl dd a{
+    color: #757575 ;
+    line-height: 28px;
+}
+.service_left dl dd a:hover{
+    color: #ff6700;
+}
+.service_center{
+    margin: 40px auto;
+}
+.service_right{
+    float: left;
+    width: 245px;
+    border-left: 1px solid #e0e0e0;
+}
+.service_right .phone{
+    color: #ff6700;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.service_right .time{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.service_right .customer{
+    text-align: center;
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    margin: auto;
+    border: 1px solid #ff6700;
+}
+.service_right .customer a{
+    display: inline-block;
+    color: #ff6700;
+    font-size: 12px;
+} 
+.service_right .customer a i{
+    vertical-align: -2px;
+ 
+}
+.service_right .attention{
+    text-align: center;
+    margin-top: 10px;
+}
+.service_right .customer:hover{
+    background-color: #ff6700;
+}
+.service_right .customer:hover a{
+    color: #fff;
+}
+.service_right .attention a{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 24px;
+}
+.footer{
+
+padding: 30px 0;
+}
+
+
+.footer_text{
+    float: left;
+    width: 1159px;
+}
+.footer_logo{
+    float: left;
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+    background:url("https://s02.mifile.cn/assets/static/image/logo-footer.png") no-repeat center center;
+}
+.text_more a,
+.text_more a span{
+    color: #757575;
+}
+.col_grey{
+    color: #b0b0b0;
+}
+.col_grey a,
+.col_grey span{
+    color: #b0b0b0;
+    line-height: 18px;
+}
+.link{
+    height: 28px;
+margin-top: 5px;
+}
+.link a {
+    display: inline-block;
+    height: 28px;
+    width: 85px;
+}
+.link a:first-child img{
+    width: 83px;
+}
+.link a:nth-child(5)  img{
+    width: 105px;
+    height: 40px;
+}
+.life{
+    text-indent: -9999px;
+    margin: 30px 0;
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png") no-repeat center center;
+}
+.attention a:hover{
+    color: #ff6700;
+}
+.footer_text p a:hover{
+    color: #ff6700;
+}
+.icon-weixin{
+    position: relative;
+}
+.weixin{
+    display: block;
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: 24px;
+    left: -60px;
+    display: none;
+}
+.weixin img{
+    width: 100%;
+    height: 100%;
+}
